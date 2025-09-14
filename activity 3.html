@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Animation</title>
+        <style>
+            /*The animaion code*/
+    @keyframes example {
+       0%   {background-color:pink;font-size:30px;}
+       25%  {background-color:blue;font-size:20px;}
+       50%  {background-color:red;font-size:10px;}
+       100% {background-color:green;font-size:50px;}
+    }
+    /* The element to apply the animation to */
+    div{
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        animation-name: example;
+        animation-duration: 7s;
+    }
+        </style>
+    </head>
+    <body>
+        <div>Hello</div>
+    </body>
+</html>
